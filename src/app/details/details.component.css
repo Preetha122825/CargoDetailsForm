@@ -1,0 +1,121 @@
+
+.head{
+    position:absolute;
+    top:-12px;
+    left:15px;
+    background-color: #ff5a5f;
+    color: white;
+    padding: 4px 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size:14px;
+    display: inline-block;
+}
+label { 
+    width: 90px;
+    margin-right:px;
+    font-weight: bold;
+    font-size: 14px;
+         
+}
+input{
+    
+    
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;   
+}
+
+select {
+    padding: 4px;
+    margin: 2px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: inline-block;
+    font-size: 14px;
+    text-align: center;
+    
+}
+.search-icon {
+    background: #ff5a5f;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    border:none;    
+}
+.card-title{
+    position:absolute;
+    background-color: #ff5a5f;
+    color: white;
+    padding: 4px 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border-radius:5px;
+    font-size:14px;
+    left:15px;
+    display: inline-block;
+    margin-top:20px ;
+    
+} 
+.card-title-line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+  
+.right-label {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+  
+.line {
+    flex-grow: 1;
+    height: 1px;
+    background-color:  #ccc;
+    margin-left: 10px;
+    margin-top: 10px;
+    
+}
+.receiver{
+    position:absolute;
+    top:-12px;
+    right:15px;
+    background-color: rgb(22, 203, 22);
+    color: white;
+    padding: 4px 10px;
+    font-weight: bold;
+    
+    margin-bottom: 10px;
+    
+    font-size:14px;
+    display: inline-block;
+}
+.total-details strong{
+    margin-left:10px;
+    font-size:14px;   
+}
+.total-items{
+    display: flex;
+    align-items:center;
+    justify-content:end;
+    gap:40px;
+    
+}
+.total-input{
+    width:30px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.badge {
+    background-color: #ff5a5f;
+    color: white;
+    padding: 5px 8px;
+    font-size: 14px;
+    border-radius: 12px;
+    margin-right: 10px;   
+}

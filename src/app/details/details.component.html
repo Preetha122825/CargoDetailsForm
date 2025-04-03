@@ -1,0 +1,413 @@
+<div class="container-fluid mt-4 mb-2 ps-3">
+    <!--row 1-->
+    <div class="row gx-3 align-items-stretch">
+        <!--card-1-->
+
+        <div class="col-md-5 d-flex ">
+            <div class="card ">
+                <div class="card-body">
+                    <div class="head">Sender Details</div>
+                    <div class="m-1">
+                        <div class="d-flex justify-content-between mt-2">
+                            <label for="">Id type</label>
+                            <select class="col-3" >
+                                <option value=""></option>
+                                <option value="passport">Passport</option>
+                                <option value="aadhaar">Aadhaar</option>
+                            </select>
+                            <input type="text" class="col-6">
+                            <button class="search-icon">🔍</button>
+                        </div>
+                        <div class="d-flex justify-content-between mt-2 align-items-center">
+                            <label>Sender Name</label>
+                            <input type="text" class=" col-9"  >
+                            <button class="search-icon">🔍</button>
+                        </div>
+                        <div class="d-flex justify-content-between mt-2">
+                            <label>Mobile1</label>
+                            
+                            <input class="col-1 "style="max-width: 40px; text-align: center;"   value="+91" readonly>
+                            <input class=" col-2"  type="text">
+                            <button class="search-icon   ">🔍</button>
+                           
+                            <label >WhatsApp</label>
+                            <input class="col-1" style="max-width: 40px; text-align: center;"   value="+91" readonly>
+                            <input class=" col-3" type="text"  >
+                            
+                    </div>
+                    <div class="d-flex justify-content-between mt-2">
+                        <label>Address</label>
+                        <input type="textarea" value="ADMIN" class="col-10"/>
+                        
+                    </div>
+                    <!--Shipment -->
+
+                    <div class="card-title-line ">
+                        <div class="card-title">Shipment Details</div>
+                        <div class="line"></div>
+                        <span class="right-label">Invoice Date :</span>
+                        <div class="line"></div>
+                    </div>
+
+                    <div class="d-flex justify-content-between mt-3">
+                        <label>Transit Type</label>
+                        <select class="col-4">
+                            <option value="air">AIR</option>
+                            <option value="sea">SEA</option>
+                            <option value="road">ROAD</option>
+                        </select>
+                        <label>Service Type</label>
+                        <select class="col-4">
+                            <option value="">Select</option>
+                            <option value="express">Express</option>
+                            <option value="standard">Standard</option>
+                        </select>
+                    </div>
+                    <div class="d-flex justify-content-between mt-2">
+                        <label>To Country</label>
+                        <select class="col-4">
+                            <option value="india">INDIA</option>
+                            <option value="usa">USA</option>
+                            <option value="uk">UK</option>
+                        </select>
+                        <label>Region</label>
+                        <select class="col-4">
+                            <option value="north">North</option>
+                            <option value="east">East</option>
+                            <option value="south">South</option>
+                        </select>
+                    </div>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--2nd card-->
+        <div class="col-md-5 d-flex ">
+            <div class="card">
+        
+                <div class="card-body">
+                    <div class="head">Receiver Details</div>
+                    <div class="receiver"><strong>Sender based Receiver</strong> <span class="badge bg-danger text-white">1</span></div>
+
+                    <div class="m-1">
+                        <div class="d-flex justify-content-between mt-2">
+                            <label for="">Id type</label>
+                            <select class="col-3" >
+                                <option value=""></option>
+                                <option value="passport">Passport</option>
+                                <option value="aadhaar">Aadhaar</option>
+                            </select>
+                            <input type="text" class="col-6">
+                            <button class="search-icon">🔍</button>
+                        </div>
+                        <div class="d-flex justify-content-between  align-items-center">
+                            <label>Receiver Name</label>
+                            <input type="text" class=" col-9" >
+                            <button class="search-icon">🔍</button>
+                        </div>
+                        <div class="d-flex justify-content-between mt-1 ">
+                            <label>Address</label>
+                            <input type="textarea" class="col-10"  value=""/>
+                            
+            
+                        </div>
+                        <div class="d-flex justify-content-between mt-2 align-items-center">
+                            <label>Mobile1</label>
+                            
+                            <input class=" " style="max-width: 40px; text-align: center;"  value="+91" readonly>
+                            <input class=" col-2" style="min-width: 100px; text-align: center;" type="text">
+                            <button class="search-icon   ">🔍</button>
+                           
+                            <label >WhatsApp</label>
+                            <input class="" style="max-width: 40px; text-align: center;"  value="+91" readonly>
+                            <input class=" col-3" type="text">
+                            
+                        </div>
+            
+                        <div class="d-flex justify-content-between mt-2">
+                            <label style="width:75px;">Pincode</label>
+                            <input type="text" class="col-4"/>
+                            <label style="width:55px;">State</label>
+                            <select class="col-4">
+                                <option value="tamilnadu">TamilNadu</option>
+                                <option value="kerala">Kerala</option>
+                                <option value="karnataka">Hyderabad</option>
+                            </select>
+                        </div>
+            
+                        <div class="d-flex justify-content-between mt-2">
+                            <label style="width:75px;">District</label>
+                            <select class="col-4">
+                                <option value="madurai">Madurai</option>
+                                <option value="kaniyakumari">Kaniyakumari</option>
+                                <option value="salem">Salem</option>
+                            </select>
+                            <label style="width:55px;">Taluk</label>
+                            <select class="col-4">
+                                <option value="kalkulam">Kalkulam</option>
+                                <option value="agastheeswaram">Agastheeswaram</option>
+                                <option value="vilavancode">Vilavancode</option>
+                            </select>
+                        </div>
+            
+            
+                        <div class="d-flex justify-content-between mt-2">
+                            <label style="width:75px;">P.Office</label>
+                            <select class="col-4">
+                                <option value="pallavarm">Pallavaram P.O</option>
+                                <option value="thambaram">Thambaram P.O</option>
+                                <option value="agastheeswaram">Agastheeswaram P.O</option>
+                            </select>
+                            <label style="width:55px;">E mail</label>
+                            <input type="email" class="col-4">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--card-3-->
+        <div class="col-md-2 d-flex ">
+            <div class="card " >
+                <div class="card-body">
+                    
+                    <div class="head">Shipment Details</div>
+                    <div class="m-1">
+                        <div class="d-flex justify-content-between mt-2 ">
+                            <label>Bill No</label>
+                            <input type="text" class="col-6 p-1">
+                            
+
+                            
+                        </div>
+                
+                        <div class="d-flex justify-content-between  mt-2 ">
+                            <label>Agent</label>
+                            <select class="col-6 p-1">
+                                <option value="agent1">Agent 1</option>
+                                <option value="agent2">Agent 2</option>
+                                <option vale="agent3">Agent 3</option>                          
+                            </select>
+                        </div>
+                
+                        <div class="d-flex justify-content-between mt-2 ">
+                            <label>RefNo</label>
+                            <input type="number" class="col-6 p-1">
+                        </div>
+                        
+                
+                        <div class="d-flex justify-content-between mt-2 ">
+                            <label>Rate</label>
+                            <input type="number" class="col-6 p-1">
+                        </div>
+                
+                        <div class="d-flex justify-content-between  mt-2 ">
+                            <label>Payment</label>
+                            <select class="col-6 p-1">
+                                <option value="cash">Cash</option>
+                                <option value="bank">Bank</option>
+                                <option value="online">Online</option>
+                                
+                            </select> 
+                        </div>
+                        <div class="d-flex justify-content-between  mt-2">
+                            <button class="btn btn-success ms-5 mt-1 ">Save&Print</button>       
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+                
+    </div>
+    <!--2nd row -->
+    <div class="row gx-3 align-items-stretch mt-4">
+<!--card 1-->
+        <div class="col-md-5 d-flex ">
+            <div class="card">
+                <div class="card-body">
+                    <div class="head">Item Details</div>
+             
+            <!-- display Total items-->
+
+                    <div class="total-items ">
+                        <div><strong>Total Items:</strong> <span class="badge bg-danger text-white">1</span></div>
+                    
+                        <div class="nav-btn">
+                            <button class="search-icon">-</button>
+                            <input type="text" value="1" class="total-input">
+                            <button class="search-icon">+</button>
+                        </div>
+                    </div>
+
+                    <div class="m-1">
+                        <table class="table table-bordered " >
+                          <thead class="table-dark ">
+                            <tr>
+                              <th>S.n</th>
+                              <th>Ctn no</th>
+                              <th>Item Name</th>
+                              <th>Qty</th>
+                              <th>Unit Price</th>
+                              <th>Val Amt</th>
+                              
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>1</td>
+                              <td>0</td>
+                              <td>
+                                <select >
+                                  <option value="" >Select Item</option>
+                                  <option value="item1">Item 1</option>
+                                  <option value="item2">Item 2</option>
+                                  <option value="item3">Item 3</option>
+                                </select>
+                              </td>
+                              <td><input type="number"  value="1" min="1" class="col-8"></td>
+                              <td><input type="number"  value="1" min="0" step="any" class="col-8"></td>
+                              <td><input type="number"  value="1" readonly class="col-8"></td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                </div>
+            </div>
+        </div>
+        <!-- 2nd card-->
+
+        <div class="col-md-5 d-flex ">
+            <div class="card">
+                <div class="card-body">
+                    <div class="head">Carton Details</div>
+                    <div class="d-flex justify-content-end align-items-center">
+                        <div class="total-details">
+                            <strong>Total Weight:<span class="badge bg-danger">0</span> </strong>
+                            <strong>Total Carton:<span class="badge bg-danger">0</span> </strong>
+                        </div>
+                    </div>
+
+                    <div class="d-flex m-1">
+                        <div class="right">
+                            <div class="d-flex justify-content-between align-items-center mt-1">
+                                <label >Carton No</label>
+                                <input type="number" class="col-7">
+                            </div>
+                        
+                            <div class="d-flex justify-content-between align-items-center mt-1">
+                                <label >Carton Weight</label>
+                                <input type="text" class="col-7">
+                            </div>
+                        
+                            <div class="d-flex justify-content-between mt-1">
+                                <label >Remarks</label>
+                                <input type="text" class="col-7">
+                            </div>
+                        
+                            <div class="d-flex justify-content-around mt-2">
+                                <button class="btn btn-success">Update</button>
+                                <button class="btn btn-danger">Cancel</button>
+                            </div>
+                        
+                            <div class="d-flex justify-content-between mt-1">
+                                <label >Packed By</label>
+                                <input type="text" class="col-7">
+                            </div>
+                        
+                            <div class="d-flex justify-content-between mt-1">
+                                <label>Zone</label>
+                                <select class="col-7">
+                                    <option value="">Select Zone</option>
+                                    <option value="Zone 1">Zone 1</option>
+                                    <option value="zone 2">Zone 2</option>
+                                </select>
+                            </div>
+                        
+                            <div class="d-flex justify-content-between mt-1">
+                                <label>Remarks</label>
+                                <input type="text" class="col-7">
+                            </div>
+                        </div>
+                        <div class="left m-1 ms-4">
+                            <table class="table table-bordered">
+                                <thead class="table-dark">
+                                    <tr>
+                                        <th class="col-1">Carton No</th>
+                                        <th class="col-1">C. Weight</th>
+                                        <th class="">Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td colspan="3" class="text-center"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--card 3-->
+
+        <div class="col-md-2 d-flex ">
+            <div class="card">
+                <div class="card-body">
+                    <div class="head">Amount Details</div>
+                    <div class="m-1">
+                        <div class="d-flex justify-content-between align-items-center mt-1">
+                            <label>Freight Charge</label>  
+                            <input type="number" value="0.01" readonly class="col-5">
+                        </div>
+                        <div class="d-flex justify-content-between mt-1">
+                            <label>Packing</label>
+                            <input type="number" value="0.01" readonly class="col-5">
+                        </div>
+                        <div class="d-flex justify-content-between mt-1">
+                            <label>Bill Change</label>
+                            <input type="number" value="0.01" readonly class="col-5">
+                        </div>
+                        <div class="d-flex justify-content-between mt-1">
+                            <label>Extra</label>
+                            <input type="number" value="0.01" readonly class="col-5">
+                        </div>
+                        <div class="d-flex justify-content-between mt-1">
+                            <label>Bill Amt</label>
+                            <input type="number" value="0.01" readonly class="col-5">
+                        </div>
+                        <div class="d-flex justify-content-between mt-1">
+                            <label>Discount</label>
+                            <input type="number" value="0.01" readonly class="col-5">
+                        </div>
+                        <div class="d-flex justify-content-between mt-1">
+                            <label>VAT</label>
+                            <input type="number" value="0.01" readonly class="col-5">
+                        </div>
+                        <div class="d-flex justify-content-between mt-1">
+                            <label>Total Amt</label>
+                            <input type="number" value="0.01" readonly class="col-5">
+                        </div>
+                        <div class="d-flex justify-content-between mt-1">
+                            <label>Received</label>
+                            <input type="number" value="0.01" readonly class="col-5">
+                        </div>
+                        <div class="d-flex justify-content-between mt-1">
+                            <label>Balance</label>
+                            <input type="number" value="0.01" readonly class="col-5">
+                        </div>
+                        
+                    </div>
+
+                </div>
+
+
+
+            </div>
+        </div>
+    
+
+        
+    </div>
+</div>
